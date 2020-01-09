@@ -28,6 +28,6 @@ def update_counting_hash(hash, key)
     hash[key]+= 1 
   else
     hash[:key]= 1
-    put hash[key]
+    puts hash[key]
   end
 end
